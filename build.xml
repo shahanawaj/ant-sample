@@ -1,4 +1,4 @@
-<project name="ant-sample" basedir="." default="build">
+<project name="ant-sample" basedir="." default="build" xmlns:sonar="antlib:org.sonar.ant">
 
     <!-- properties -->
     <property name="src.dir"     value="src"/>

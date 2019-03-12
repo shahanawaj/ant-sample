@@ -13,7 +13,7 @@ pipeline
       steps
       {
       withEnv( ["ANT_HOME=${tool antVersion}"] ) {
-      sh '$ANT_HOME/bin/ant -f build.xml'
+      sh '$ANT_HOME/bin/ant build'
       }
 }
 }
